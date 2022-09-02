@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Namoro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <audio src="song/som-de-teleport.mp3" id="audioTeletransporte"></audio>
+    <audio src="song/sorriso-resplandecente-dragon-ball-GT.mp3" id="audioFinal"></audio>
+    <div class="container">
+        <div class="fundoFinal" id="fundoFinal"></div>
+        <div class="teAmo" id="teAmo">
+            <div id="eu">Eu </div>
+            <div id="te">te </div>
+            <div id="amo">amo </div>
+            <div id="exclamacao">! </div>
+        </div>
+
+        <div class="content" id="content">
+            <div class="pergunta">
+                <h1 id="textPergunta">Lícia, você quer namorar comigo ?</h1>
+            </div>
+            <div class="opcoes">
+
+                <button id="sim" onclick="iniciarSim()">Sim !</button>
+                <button id="nao" onmouseover="mudarBotao()">Não !</button>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
