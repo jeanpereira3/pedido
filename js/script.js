@@ -24,12 +24,14 @@ function removerBotao() {
 function criarBotao() {
     getTamanhoTela();
     setPosicaoRand();
-    let botao = document.createElement('button')
+    let botao = document.createElement('a')
     botao.id = 'nao'
+    botao.innerHTML = 'Não !'
+    botao.className = 'button'
     botao.style.left = posicaoX + 'px'
     botao.style.top = posicaoY + 'px'
     botao.style.position = 'absolute'
-    botao.innerHTML = 'Não !'
+
     botao.onmouseover = () => {
         mudarBotao()
     }
