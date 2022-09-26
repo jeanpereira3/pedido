@@ -9,6 +9,7 @@
     to {
         width: 0;
         height: 0;
+        min-width: auto;
 
     }
 }
@@ -84,6 +85,7 @@
     width: 70%;
     min-width: 900px;
     height: 70%;
+    min-height: 640px;
     background: url(../images/coracao_pink.png) no-repeat;
     background-size: contain;
     background-position: center;
@@ -144,5 +146,168 @@ button {
     color: white;
     text-indent: -9999px;
     opacity: 0;
+
+}
+
+@media (max-width: 390.50px) {
+
+    @keyframes fadeIn {
+        0% {
+            font-size: 3em;
+            text-indent: 0;
+            opacity: 1;
+        }
+
+        50% {
+            font-size: 4em;
+            text-indent: 0;
+            opacity: 1;
+        }
+
+        100% {
+            font-size: 3em;
+            text-indent: 0;
+            opacity: 1;
+        }
+
+
+    }
+
+    .content {
+        width: 100%;
+        min-width: auto;
+        height: 667px;
+        min-height: auto;
+    }
+
+    .fundoFinal {
+        width: 125%;
+        height: 75%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-size: contain;
+
+    }
+
+    .opcoes {
+        margin-top: 155px;
+
+    }
+
+    .pergunta h1 {
+
+        text-align: center;
+
+    }
+
+    .pergunta h1 span {
+
+        display: block;
+
+    }
+
+    .pergunta {
+        margin-top: 50px;
+        width: 95%;
+        color: #fff;
+    }
+
+    .teAmo div {
+        font-size: 3em;
+
+
+    }
+
+    .teAmo {
+        top: 60px;
+        width: 290px;
+
+
+
+    }
+
+
+}
+
+@media (min-width: 390.51px) and (max-width: 500px) {
+    @keyframes fadeIn {
+        0% {
+            font-size: 3em;
+            text-indent: 0;
+            opacity: 1;
+        }
+
+        50% {
+            font-size: 4em;
+            text-indent: 0;
+            opacity: 1;
+        }
+
+        100% {
+            font-size: 3em;
+            text-indent: 0;
+            opacity: 1;
+        }
+
+
+    }
+
+    .content {
+        width: 100%;
+        min-width: auto;
+        height: 100%;
+        min-height: auto;
+
+
+
+    }
+
+    .fundoFinal {
+        width: 125%;
+        height: 55%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-size: contain;
+
+    }
+
+    .opcoes {
+        margin-top: 168px;
+
+    }
+
+    .pergunta h1 {
+
+        text-align: center;
+
+    }
+
+    .pergunta h1 span {
+
+        display: block;
+
+    }
+
+    .pergunta {
+        margin-top: 155px;
+        width: 90%;
+        color: #fff;
+    }
+
+    .teAmo div {
+        font-size: 3em;
+
+
+    }
+
+    .teAmo {
+        top: 140px;
+        width: 290px;
+
+
+
+    }
 
 }
